@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+  font-family: 'Muli'
+}
+
+.navbar-inverse{
+    background:transparent !important;
+    border:none !important;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li a:hover {
+  color: black !important
+}
+
+.navbar-brand:hover {
+  color: black !important;
+}
+
+
+.navbar-toggle {
+
+}
+.canada_banner {
+	background: url(images/canada_banr.jpg);
+	background-size: cover;
+	height: 890px;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 250ms linear;
+}
+
+.back_cover {
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(118, 117, 117, 0.7);
+}
+
+.form_container {
+	max-width: 100%;
+    
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+    background-color:#FAFAFA;
+    position: relative;
+}
+
+.form_header {
+	-webkit-border-radius:6px 6px 0px 0px;
+    -moz-border-radius:6px 6px 0px 0px;
+    border-radius:6px 6px 0px 0px;
+    background-color:#FF7A82;
+    color:#FAFAFA;
+} 
+
+.form_under_header {
+  text-align: center;
+
+}
+
+h2 {
+	padding: 15px 0 15px 0;
+	font-size: 1.4em;
+	text-align: center;
+  margin-top: 0 !important;
+}
+
+input{
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  border: 1px solid #cecece;
+  background: #FF7A82;
+  color:#FAFAFA;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.gender_option select{
+	font-size: 1em;
+  padding: 15px 10px 10px;
+  border: 1px solid #cecece;
+  background: #FF7A82;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 53%;
+  height: 40px;
+  color: ;
+
+}
+
+input:first-of-type
+{
+  margin-top:35px;
+}
+
+button  {
+  margin-top:15px;
+  margin-bottom:25px;
+  background-color:#FF7A82;
+  padding: 12px 45px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #FF7A82;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  width:30%;
+  color:#fff;
+}
+
+#gender_text {
+  font-size: 22px;
+}
+
+.text_box_info {
+  height: 80%;
+  width: 30%;
+  padding: 5%;
+  background-color: #FF7A82;
+  float: right;
+  margin-top: 5%;
+  margin-right: 7%;
+  text-align: center;
+  font-size: 2em;
+  border-radius: 50%;
+  overflow: hidden;
+}
