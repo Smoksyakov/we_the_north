@@ -28,72 +28,73 @@
 	<body>
 		<div class="fluid-container canada_banner">
 
-			<div class="fluid-container">
-				<div class=:"row">
-					<nav class="navbar navbar-inverse navbar-fixed-top ">
-					  <div class="container">
-					    <div class="navbar-header">
-					      <button style="width:12%;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>                        
-					      </button>
-					      <a class="navbar-brand" href="#">For The North</a>
-					    </div>
-					    <div class="collapse navbar-collapse" id="myNavbar">
-					      <ul class="nav navbar-nav navbar-right">
-					        <li><a href="#">Home</a></li>
-					        <li><a href="#"><i class="fa fa-facebook " aria-hidden="true"></i> &nbsp;Facebook</a></li>
-					        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> &nbsp;Instagram</a></li>
-					      </ul>
-					    </div>
-					  </div>
-					</nav>
-				</div>	
-			</div>
+
+				<div class="container">
+					<div class="row" style="m">
+						<center><img src="images/FTN_logo.png" id="logo" style="height:70%;width:50%;"></center>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row" style="margin-top:2%;">
+						<div class="col-md-8 col-md-offset-2">
+							<div class="back_cover">
+								<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyMcxUJYmNZAvW-SwMFnU2utNpvYLm5y_liADUu6YQbw7g7BRQ/exec">
+									<div class="form_container">
+											<div class="h2_text">ENTER TO WIN 1 of 2 CURATED <br>
+												BOXES OF GREAT CANADIAN PRODUCTS
+											</div>
+										<input type="text" placeholder="First Name" required name="name" style="margin-left:5%;">
+
+										<br>
+										<br>
+										<input type="email" placeholder="Email Address" name="email" required style="margin-bottom:10px;margin-left:5%;">
+										<br>
+										<div class="gender_option" style="margin-left:5%;margin-top:2%;">
+											<input type="radio" name="gender" value="male" style="width:3%;"> <label style="top:4px;">For The Boys </label>
+  											<input type="radio" name="gender" value="female" style="width:3%;margin-left:3%;"> <label style="top:4px;">For The Girls</label>
+  											<br>
+										</div>	
+										<button id="submit" type="submit" style="margin-top:5%;margin-left:5%;text-align:center;font-size:1.5em;">Send</button>
+
+										<div class="socials">
+											<i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+											<i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+											<i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
 
 
-		<div class="container">
-			<div class="row leaf" style="margin:5%">
-				<center><img src="images/FTN_logo.png" id="logo" style="height:70%;width:70%;margin-top:-20%;margin-bottom:-25%;filter: brightness(2);"></center>
-			</div>
+										</div>
+									</div>
+								</form>
+							</div>	
+						</div>
+					</div>
+				</div>
+												  <!-- Customise the Thankyou Message People See when they submit the form: -->
+								  <div style="display:none;" id="thankyou_message">
+								    <center><h2><em>Thanks</em> for contacting us!
+								      We will get back to you soon!</h2></center>
+								  </div>
+
+								  <script data-cfasync="false" type="text/javascript"
+								  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+								<!-- END -->
+
+
+
+
 		</div>
-
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="back_cover">
-						<form id="contact">
-							<div class="form_container">
-								<div class="form_header">
-									<h2>Enter Our Free Launch Giveaway!!</h2>
-								</div>
-								<div class="form_under_header">
-									<h3>Each Giveaway box is valued at over $200!</h3>
-								</div>
-								<input type="text" placeholder="First Name" name="name" style="margin-left:5%;">
-								<div class="text_box_info">Discover what's <span style=>YOUR</span> box </div>
-								<br>
-								<br>
-								<input type="email" placeholder="Email Address" style="margin-bottom:10px;margin-left:5%;">
-								<br>
-								<div id="gender_text" style="margin-left:5%;">Select Your Gender</div>
-								<div class="gender_option" style="margin-left:5%;">
-									<select name="gender">
-										<option value="male" style="color:black;">Male</option>
-										<option value='female'>Female</option>
-									</select>
-								</div>	
-								<button id="submit" type="submit" style="margin-bottom:5%;margin-top:5%;margin-left:5%;text-align:center;font-size:1.5em;">Send</button>
-							</div>
-						</form>
-					</div>	
+				<div class="col-md-12 col-xs-12 footer_note" style="background:white;color:#B8B8C2">
+					<div class="col-md-4 col-xs-4" style="padding:10px;">
+						<center>Copyright &copy; 2017 Rich Hill Design</center>
+					</div>
+					<div class="col-md-4 col-xs-4" style="padding:10px;">
+						<center>For the North</center>
+					</div>
 				</div>
 			</div>
-		</div>
-
-
-
 		</div>
 	</body>
 </html>

@@ -1,55 +1,27 @@
 * {
 	margin: 0;
 	padding: 0;
-  font-family: 'Muli'
-}
-
-.navbar-inverse{
-    background:transparent !important;
-    border:none !important;
-}
-
-nav ul{
-	list-style: none;
-}
-
-nav ul li a:hover {
-  color: black !important
-}
-
-.navbar-brand:hover {
-  color: black !important;
 }
 
 
-.navbar-toggle {
-
-}
 .canada_banner {
-	background: url(images/canada_banr.jpg);
+	background: url(images/canada_ban.jpg);
 	background-size: cover;
 	height: 890px;
 	width: 100%;
 	background-attachment: fixed;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 250ms linear;
-}
 
 .back_cover {
-  padding: 10px 10px 10px 10px;
+  padding: 5px;
   background-color: rgba(118, 117, 117, 0.7);
 }
 
 .form_container {
 	max-width: 100%;
-    
-    -webkit-border-radius:6px;
-    -moz-border-radius:6px;
-    border-radius:6px;
-    background-color:#FAFAFA;
+  
+    background-color: rgba(255, 255, 255, 0.8);
     position: relative;
 }
 
@@ -66,9 +38,10 @@ nav ul li a:hover {
 
 }
 
-h2 {
+.h2_text {
 	padding: 15px 0 15px 0;
-	font-size: 1.4em;
+	font-size: 2em;
+  font-weight: bolder;
 	text-align: center;
   margin-top: 0 !important;
 }
@@ -77,8 +50,8 @@ input{
   font-size: 1em;
   padding: 15px 10px 10px;
   border: 1px solid #cecece;
-  background: #FF7A82;
-  color:#FAFAFA;
+  background: #676DE8;
+  color:#676DE8;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -91,26 +64,6 @@ input{
   width: 50%;
 }
 
-.gender_option select{
-	font-size: 1em;
-  padding: 15px 10px 10px;
-  border: 1px solid #cecece;
-  background: #FF7A82;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 53%;
-  height: 40px;
-  color: ;
-
-}
-
 
 input:first-of-type
 {
@@ -120,12 +73,12 @@ input:first-of-type
 button  {
   margin-top:15px;
   margin-bottom:25px;
-  background-color:#FF7A82;
+  background-color:#676DE8;
   padding: 12px 45px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  border: 1px solid #FF7A82;
+  border: 1px solid #676DE8;
   -webkit-transition: .5s;
   transition: .5s;
   display: inline-block;
@@ -172,4 +125,33 @@ button  {
    button {
     padding: 0;
    }
+
+   label {
+    width: 35%;
+   }
+}
+
+::-webkit-input-placeholder { 
+  color: white;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+label {
+  font-size: 1.6em;
+  position: relative;
+}
+
+.socials {
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.socials i {
+  padding: 10px;
+}
+
+.socials i:hover {
+  cursor: pointer;
 }
