@@ -50,8 +50,8 @@ input{
   font-size: 1em;
   padding: 15px 10px 10px;
   border: 1px solid #cecece;
-  background: #676DE8;
-  color:#676DE8;
+  background: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.45);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -73,12 +73,12 @@ input:first-of-type
 button  {
   margin-top:15px;
   margin-bottom:25px;
-  background-color:#676DE8;
+  background-color:rgba(0, 0, 0, 0.45);
   padding: 12px 45px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  border: 1px solid #676DE8;
+  border: 1px solid black;
   -webkit-transition: .5s;
   transition: .5s;
   display: inline-block;
@@ -135,6 +135,10 @@ button  {
   color: white;
   font-size: 1em;
   font-weight: bolder;
+}
+
+input:focus {
+  color: white;
 }
 
 label {
