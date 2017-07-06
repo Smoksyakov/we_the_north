@@ -150,6 +150,39 @@ label {
   font-size: 15px;
   padding: 10px;
   text-align: center;
+  color: black;
+}
+
+.fa-instagram, .fa-facebook-official{
+  color: rgba(0, 0, 0, 0.45)
+}
+
+.socials a {
+  text-decoration: none;
+  list-style: none;
+  color: none;
+  outline: none;
+}
+
+.socials a:link {
+  color: black;
+}
+
+a {
+    color: none;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.socials a:hover {
+  list-style: none;
+  text-decoration: none;
 }
 
 .socials i {
